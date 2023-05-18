@@ -9,39 +9,241 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
 </head>
-<body style="margin: 0;">
-    <div id="navbar" style="display: flex; border-bottom: 1px solid gray; padding: 14px 800px; justify-content: space-between;">
-        <div id="navbar-left">
-            <img src="technology-with-purpose.svg">
+<body>
+        <header>
+        
+        <img src="/maquetacion/img/technology-with-purpose.svg" alt="Image brand">
+
+        <nav>
+            <ul class="navbar-list">
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Programas</a></li>
+                <li><a href="#">Capacitaciones</a></li>
+                <li><a href="#">Alianzas</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><button>Sumate +</button></li>
+                <div class="social-media">
+                    <li><a href="https://www.instagram.com/technologywithpurpose/"><i class="fa-brands fa-instagram social-media-icon"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/technologywithpurpose/"><i class="fa-brands fa-linkedin-in social-media-icon"></i></a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="section-about">
+            <div class="about-container">
+                <p class="p-about">Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</p>
+
+                <div class="btn-container-about">
+                    <button>Contactanos <i class="fa-sharp fa-solid fa-right-long row-icon"></i></button>
+                    <button class="btn-violet">Sumate <i class="fa-solid fa-plus plus-icon "></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-impacto">
+            <h2 class="title-impacto">. Impacto</h2>
+            <div class="impacto-container">
+                <p class="p-impacto">Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</p>
+                <div class="stats-container">
+                    <div>
+                        <p class="numbers-impacto">58</p>
+                        <p class="sub-number">Localidades</p>
+                    </div>
+                    <div>
+                        <p class="numbers-impacto"><span class="plus-violet">+</span> 50 </p>
+                        <p class="sub-number">Mentores</p>
+                    </div>
+                    <div>
+                        <p class="numbers-impacto">301 </p>
+                        <p class="sub-number">Participantes</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-parallax">
+        </section>
+        
+        <section class="section">
+            
+            <h2 class="section-title">. Programas</h2>
+
+            <div class="section-row">
+                <div>
+                    <img class="section-img-grupo" src="./img/programas/xacademy-01-600x400.jpg" alt="Imagen grupo Academy">
+                </div>
+                <div class="section-content">
+                    <img class="section-img-logo" src="./img/xacademy.svg" alt="Imagen logo Xacademy">
+                    <p>xAcademy es un programa de formación en tecnología llevado adelante por la Fundación Tecnología con Propósito junto a Santex que busca promover un cambio positivo en la comunidad a través de la educación en IT, apuntando a lograr la inserción laboral de personas en el mundo tecnológico.</p>
+                    <button>Más info <i class="fa-sharp fa-solid fa-right-long row-icon"></i></button>
+                </div>
+            </div>
+
+            <div class="section-row">
+                <div class="section-content">
+                    <h3 class="section-content-title">Robótica educativa: la tecnología del futuro</h3>
+                    <p>Durante el curso, los alumnos y alumnas a través de la robótica desarrollan la curiosidad, el autodidactismo y las habilidades blandas necesarias para afrontar la revolución tecnológica del siglo XXI.</p>
+                    <button>Más info <i class="fa-sharp fa-solid fa-right-long row-icon"></i></button>
+                </div>
+                <div>
+                    <img class="section-img-robotica" src="./img/programas/robotica-educativa-07-600x400.jpg" alt="Imagen Robotica">
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            
+            <h2 class="section-title">. Capacitaciones</h2>
+
+            <div class="section-row">
+                <div>
+                    <img class="section-img-grupo" src="./img/capacitaciones/estafas-virtuales-04-600x453.jpg" alt="Imagen grupo Academy">
+                </div>
+                <div class="section-content">
+                    <h3 class="section-content-title">Estafas virtuales: ¿cómo protegernos?</h3>
+
+                    <p>Los canales de comunicación a través de medios digitales cobraron gran protagonismo a partir de la pandemia. Al mismo tiempo, se perfeccionan cada vez más rápido las modalidades de estafas y fraudes virtuales. En esta capacitación vas a aprender diferentes tips y consejos útiles para navegar de manera más segura.</p>
+                    <button>Más info <i class="fa-sharp fa-solid fa-right-long row-icon"></i></button>
+                </div>
+            </div>
+
+            <div class="section-row">
+                <div class="section-content">
+                    <h3 class="section-content-title">Seguridad informática para infancias</h3>
+                    <p>¿Navegamos seguros en internet? La propuesta es una charla para niños y niñas donde se brindan herramientas de seguridad y autocuidado digital.</p>
+                    <button>Más info <i class="fa-sharp fa-solid fa-right-long row-icon"></i></button>
+                </div>
+                <div>
+                    <img class="section-img-robotica" src="./img/capacitaciones/seguridad-informatica-para-infancias-600x398.jpg" alt="Imagen Robotica">
+                </div>
+            </div>
+        </section>
+
+        <section class="section-equipo">
+            <h2 class="section-title">. Equipo</h2>
+            <div class="section-equipo-img-container">
+                <div class="section-equipo-img-content">
+                        <img src="/maquetacion/img/equipo/twp-juan-400x296.png" alt="Imagen persona equipo">
+                        <div class="p-container">
+                            <p class="name">Juan Santiago</p>
+                            <p class="puesto">Presidente</p>
+                        </div>
+                        <button><i class="fa-brands fa-linkedin-in"></i></button>
+                </div>
+                <div class="section-equipo-img-content">
+                        <img src="/maquetacion/img/equipo/twp-walter-400x296.png" alt="Imagen persona equipo">
+                        <div class="p-container">
+                            <p class="name">Walter Abrigo</p>
+                            <p class="puesto">Secretario</p>
+                        </div>
+                        <button><i class="fa-brands fa-linkedin-in"></i></button>
+                </div>
+                <div class="section-equipo-img-content">
+                        <img src="/maquetacion/img/equipo/twp-gabriela-400x296.png" alt="Imagen persona equipo">
+                        <div class="p-container">
+                            <p class="name">Gabriela Fernandez</p>
+                            <p class="puesto">Comisión Directiva</p>
+                        </div>
+                        <button><i class="fa-brands fa-linkedin-in"></i></button>
+                </div>
+                <div class="section-equipo-img-content">
+                        <img src="/maquetacion/img/equipo/twp-gabriel-400x296.png" alt="Imagen persona equipo">
+                        <div class="p-container">
+                            <p class="name">Gabriel Dubini</p>
+                            <p class="puesto">Tesorero</p>
+                        </div>
+                        <button><i class="fa-brands fa-linkedin-in"></i></button>
+                </div>
+                <div class="section-equipo-img-content">
+                        <img src="/maquetacion/img/equipo/twp-florencia-400x296.png" alt="Imagen persona equipo">
+                        <div class="p-container">
+                            <p class="name">Florencia D’Agostino</p>
+                            <p class="puesto">Dirección Ejecutiva</p>
+                        </div>
+                        <button><i class="fa-brands fa-linkedin-in"></i></button>
+                </div>
+                <div class="section-equipo-img-content">
+                        <img src="/maquetacion/img/equipo/twp-celeste-400x296.png" alt="Imagen persona equipo">
+                        <div class="p-container">
+                            <p class="name">Celeste Torresi</p>
+                            <p class="puesto">Comisión Directiva</p>
+                        </div>
+                        <button><i class="fa-brands fa-linkedin-in"></i></button>
+                </div>
+                <div class="section-equipo-img-content">
+                        <img src="/maquetacion/img/equipo/twp-lucia-400x296.png" alt="Imagen persona equipo">
+                        <div class="p-container">
+                            <p class="name">Lucia Jaimez</p>
+                            <p class="puesto">Directora Academy</p>
+                        </div>
+                        <button><i class="fa-brands fa-linkedin-in"></i></button>
+                </div>
+                <div class="section-equipo-img-content">
+                        <img src="/maquetacion/img/equipo/agustin-chino-400x296.png" alt="Imagen persona equipo">
+                        <div class="p-container">
+                            <p class="name">Agustín Chino</p>
+                            <p class="puesto">Coord. Área Inclusión Social</p>
+                        </div>
+                        <button><i class="fa-brands fa-linkedin-in"></i></button>
+                </div>
+                <div class="section-equipo-img-content">
+                        <img src="/maquetacion/img/equipo/enzo-dotto-400x296.png" alt="Imagen persona equipo">
+                        <div class="p-container">
+                            <p class="name">Enzo Dotto</p>
+                            <p class="puesto">Relaciones Institucionales</p>
+                        </div>
+                        <button><i class="fa-brands fa-linkedin-in"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-alianzas">
+            <h2 class="section-title">. Alianzas</h2>
+            <div class="carousel-container">
+                <button><</button>
+                <div class="alianzas-img-container">
+                    <img class="imagenes" src="/maquetacion/img/alianzas/alianza-att-400x151.png" >
+
+                    <img class="imagenes" src="/maquetacion/img/alianzas/alianza-banco-galicia-400x151.png">
+
+                    <img class="imagenes" src="/maquetacion/img/alianzas/alianza-banco-alimentos-cordoba-400x151.png">
+
+                    <img class="imagenes" src="/maquetacion/img/alianzas/alianza-fundacion-scrum-400x151.png">
+
+                    <img class="imagenes" src="/maquetacion/img/alianzas/alianza-grupo-inteligencia-educativa-400x151.png">                           
+                                           
+                </div>
+                <button>></button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="/maquetacion/img/technology-with-purpose-white.svg" alt="Logo technology with purpose">
+        <p>Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</p>
+        <div>
+            <a href="#">NOSOTROS</a>
+            <a href="#">CONTACTO</a>
         </div>
-        <div id="navbar-right" style="display: flex; align-items: center;">
-            <p>Nosotros</p>
-            <p>Programas</p>
-            <p>Capacitaciones</p>
-            <p>Alianzas</p>
-            <p>Contacto</p>
-            <button>Sumate +</button>
+        <div>
+            <a href="#">PROGRAMAS</a>
+            <a href="#">CAPACITACIONES</a>
         </div>
-    </div>
-    <div id="contact-form">
-        <form style="margin: 0 300px;" action="">
-            <div>
-                <input type="text" placeholder="Nombre y Apellido">
-                <input type="email" placeholder="Email">
-                <select name="" id="">
-                    <option value="">Programas</option>
-                    <option value="">Capacitaciones</option>
-                </select>
-            </div>
-            <div>
-                <textarea name="" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <button>Enviar</button>
-            </div>
-        </form>
-    </div>
+        <div>
+            <a href="https://www.instagram.com/technologywithpurpose/">
+                <i class="fa-brands fa-instagram social-media-icon"></i><P>INSTAGRAM</P>
+            </a>
+            <a href="https://www.linkedin.com/company/technologywithpurpose/">
+                <i class="fa-brands fa-linkedin-in social-media-icon"></i><p>LINKEDIN</p>
+            </a>
+        </div>
+    </footer>
+
 </body>
 </html>
